@@ -13,8 +13,7 @@
         }
 
         public function vypis() {
-           echo "<section>
-                <div>
+           echo "<div>
             	     <h2>$this->nadpis</h2>
                     <p>$this->text</p>
                     <p>$this->datum</p>
@@ -22,8 +21,7 @@
                 <div>
                     <a href='http://localhost/www/testPHP/edit.php?id=$this->id'>edit</a>
                     <a href='http://localhost/www/testPHP/delete.php?id=$this->id'>smazat</a>
-                </div>
-            </section>";
+                </div>";
         }
     }
 ?>

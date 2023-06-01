@@ -18,8 +18,8 @@
     ?>
     <section>
         <div>
-            <h2><?php echo "$prispevek->nadpis?";?></h2>
-            <p><?php echo "$prispevek->datum?";?></p>
+            <h2><?php echo "$prispevek->nadpis";?></h2>
+            <p><?php echo "$prispevek->datum";?></p>
             <p><?php echo "$prispevek->text";?></p>
         </div>
         <div>
